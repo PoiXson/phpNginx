@@ -1,5 +1,5 @@
 {
-	"name":        "pxn/phpnginx/",
+	"name":        "pxn/phpnginx",
 	"description": "Management scripts for Nginx",
 	"version":     "0.1.0",
 	"type":        "library",
