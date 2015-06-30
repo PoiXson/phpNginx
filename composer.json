@@ -1,0 +1,40 @@
+{
+	"name":        "pxn/phpnginx/",
+	"description": "Management scripts for Nginx",
+	"version":     "0.1.0",
+	"type":        "library",
+	"homepage":    "http://poixson.com/",
+	"license":     "GPL-3",
+	"support": {
+		"issues": "https://github.com/PoiXson/phpNginx/issues",
+		"source": "https://github.com/PoiXson/phpNginx",
+		"irc":    "irc://irc.esper.net/poixson"
+	},
+	"authors": [{
+		"name":  "lorenzop",
+		"role":  "Developer"
+	}],
+	"autoload": {
+		"psr-4": {
+			"pxn\\phpNginx\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"pxn\\phpNginx\\tests\\":    "tests/",
+			"pxn\\phpNginx\\examples\\": "examples/"
+		}
+	},
+	"archive": {
+		"exclude": [
+			"tests/",
+			"example/"
+		]
+	},
+	"require": {
+		"php":             "5.6.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^4.7.5"
+	}
+}
